@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* ===========================================================HEADER START============================================================== */
+.header,
+.banner {
+    display: flex;
+}
+
+.search {
+    border: 1px solid #e6e1e1;
+    height: 30px;
+    width: 200px;
+    margin: 74px 14px 0px 14px;
+    font-size: 16px;
+}
+
+.search img {
+    height: 19px;
+    margin: 6px 58px 8px 18px;
+}
+
+.location,
+.user {
+    border: 1px solid #e6e1e1;
+    height: 30px;
+    width: 149px;
+    margin: 75px 9px 45px;
+    font-size: 16px;
+}
+
+.location {
+    margin-left: 151px
+}
+
+.location img {
+    height: 19px;
+    margin: 6px 27px 8px 18px;
+}
+
+.user img {
+    height: 19px;
+    margin: 6px 27px 8px 18px;
+}
+
+.banner-1 img,
+.banner-2 img {
+    height: 226px;
+    width: 447px;
+    margin-right: 10px;
+}
+
+.category {
+    display: flex;
+    height: 40px;
+    padding-top: 4px;
+}
+
+li {
+    padding-right: 36px;
+    display: inline;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.category-2 li {
+
+    display: inline;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+/* =========================================================================RECOMMENDED MOVIES START================================================================= */
+
+h6 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 24px 0px
+}
+
+.recommended-down {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.recommended-movies1 {
+    display: flex;
+    overflow-y: auto;
+}
+
+.recommended-movie-img {
+    margin-right: 17px
+}
+
+.recommended-movie-img img {
+    height: 283px;
+    width: 210px;
+}
+
+/* <!-- =====================================================================RECOMMENDED MOVIE END========================================================================= --> */
+
+/* ==================================================================================WORLD PREMIERE START========================================================================/? */
+
+.world-premiere-down {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.world-premiere-down1 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 16px;
+    color: gray;
+}
+
+.world-premiere1 {
+    display: flex;
+    overflow-y: auto;
+}
+
+.world-premiere-img {
+    margin-right: 17px
+}
+
+.world-premiere-img img {
+    height: 283px;
+    width: 210px;
+}
+
+/* =======================================================================WORLD PREMIERE END======================================================= -->
+
+      /* <!-- /* ==================================================================THE BEST LAUGHTER THERAPY START============================================ --> */
+
+.laughter-therapy-down {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.laughter-therapy1 {
+    display: flex;
+    overflow-y: auto;
+}
+
+.laughter-therapy-img {
+    margin-right: 17px
+}
+
+.laughter-therapy-img img {
+    height: 283px;
+    width: 210px;
+}
+
+/* ==================================================================THE BEST LAUGHTER THERAPY END============================================ -->
+
+    /* <!-- /* ==================================================================TRENDING SEARCHES============================================ --> */
+.trending-searches-down {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.trending-searches1 {
+    display: flex;
+    overflow-y: auto;
+}
+
+.trending-searches-img {
+    margin-right: 17px
+}
+
+.trending-searches-img img {
+    height: 283px;
+    width: 210px;
+}
+
+/* <!-- ================================================================TRENDING SEARCH END================================================ --> */
+
+/* <!-- ==============================================================FOOTER START================================================================ --> */
+
+.btn {
+    margin: 39px 392px;
+    font-size: 20px;
+    width: 208px;
+    height: 57px;
+}
+
+.services {
+    display: flex;
+}
+
+.service-img img {
+    height: 100px;
+    margin-left: 22px;
+}
+
+.service-down {
+    color: grey;
+    font-size: 22px;
+    font-weight: 700;
+    width: 228px;
+    margin-top: 5px;
+}
+
+.service-img {
+    margin-left: 54px;
+}
+
+.line-1 {
+    height: 1px;
+    background: rgb(190 190 190 / 66%);
+    width: 604px;
+    margin-top: 32px;
+}
+
+.line-2 {
+    height: 1px;
+    background: rgb(190 190 190 / 66%);
+    width: 604px;
+    margin: 39px 0px 30px 413px;
+}
+
+h5 {
+    color: white;
+    font-size: 57px;
+    font-weight: 700;
+    margin: 19px;
+    text-align: center;
+
+}
+
+.icons li img {
+    height: 44px;
+    display: inline;
+    padding: 0px;
+}
+
+.icons {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+/* ===================================================================MEDIA QUERY================================================= */
+
+/* =============================================================FOR TABLET=========================================== */
+
+@media (max-width:768px) {
+    @media (min-width:768px) and (max-width:1024px) {
+
+        /* =============================================Header start==================================== */
+        .logo img {
+            height: 115px;
+            width: 120px;
+            margin: 31px;
+        }
+
+        .search {
+            border: 1px solid #e6e1e1;
+            height: 30px;
+            width: 314px;
+            margin: 74px -1px 0px 2px;
+            font-size: 16px;
+        }
+
+        .search img {
+            margin: 6px 29px 8px 18px
+        }
+
+        .location {
+            margin-left: 7px
+        }
+
+        .location img {
+            margin: 6px 17px 8px 1px;
+        }
+
+        .banner-1 img,
+        .banner-2 img {
+            height: 226px;
+            width: 348px;
+
+        }
+
+        /* ========================================FOOTER START============================================= */
+        .btn {
+            margin: 40px 293px;
+        }
+
+        .service-img {
+            margin-left: 1px;
+        }
+
+        .line-2 {
+            height: 1px;
+            background: rgb(190 190 190 / 66%);
+            width: 604px;
+            margin: 39px 0px 30px 159px;
+        }
+
+        h5 {
+            color: white;
+            font-size: 50px;
+        }
+
+    }
+}
+
+/* =============================================================FOR MOBILE=========================================== */
+
+
+@media (min-width:375px) and (max-width:767px) {
+
+    .header,
+    .banner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .banner-1 img,
+    .banner-2 img {
+        height: 226px;
+        width: 308px;
+        margin-top: 10px;
+    }
+
+    .search {
+        border: 1px solid #e6e1e1;
+        height: 30px;
+        width: 116px;
+        font-size: 14px;
+        margin: 4px 14px 0px 14px;
+    }
+
+    .search img {
+        margin: 4px 14px 0px 14px;
+    }
+
+    .location {
+        margin-left: 8px;
+    }
+
+    .location img {
+        height: 19px;
+        margin: 6px 0px 8px 2px;
+    }
+
+    .location,
+    .user {
+        border: 1px solid #e6e1e1;
+        height: 30px;
+        width: 88px;
+        margin: 3px 9px -26px 0px;
+        font-size: 16px;
+    }
+
+    .user img {
+        height: 19px;
+        margin: 6px 12px 8px 9px;
+    }
+
+    li {
+        padding-right: 11px;
+        display: inline;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .category-2 li {
+        display: contents;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .btn {
+        margin: 42px 82px;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+
+    .service-img img {
+        height: 100px;
+        margin-left: 13px;
+        margin-top: 37px;
+    }
+
+    .line-1 {
+        height: 1px;
+        background: rgb(190 190 190 / 66%);
+        width: 209px;
+        margin-top: 32px;
+    }
+
+    h5 {
+        color: white;
+        font-size: 38px;
+        font-weight: 700;
+        margin: 9px;
+        text-align: center;
+    }
+    .line-2 {
+        height: 1px;
+        background: rgb(190 190 190 / 66%);
+        width: 210px;
+        margin: 14px 0px 30px 164px;
+    }.icons li img {
+        height: 16px;
+        display: inline;
+        padding: 0px;
+    }
+}
